@@ -10,3 +10,5 @@ def bhaskara(a, b, c):
     x2=(-b-x)/(2*a)
     return x1, x2
 
+def standard_deviation(values):
+    return math.sqrt(variance(values))
