@@ -2,6 +2,7 @@
 # Author: @danielscarvalho
 # Date: Feb/2016
 # Code: cf lib
+
 import math
  
 def bhaskara(a, b, c):
@@ -10,3 +11,18 @@ def bhaskara(a, b, c):
     x2=(-b-x)/(2*a)
     return x1, x2
 
+def average(values):
+    vsum = sum(values)
+    itens = len(values)
+    return = vsum / float(itens)
+
+def variance(values):
+    vaverage = average(values)
+    vsum = 0
+    vvariance = 0
+
+    for value in values:
+        vsum += math.pow( (value - vaverage), 2)
+        vvariance = vsum / float( len(values) )
+    
+    return vvariance
