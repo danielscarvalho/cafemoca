@@ -12,8 +12,8 @@ print("x\'  = {}\nx'' = {}".format(x1, x2))
 values = list(range(0,10000))
 
 print("values: {}".format(values))
-print("variance: {}".format(variance(values)))
-print("average: {}".format(average(values)))
-print("standard deviation: {}".format(standard_deviation(values)))
+print("variance: {}".format(cmlib.variance(values)))
+print("average: {}".format(cmlib.average(values)))
+print("standard deviation: {}".format(cmlib.standard_deviation(values)))
 
 
