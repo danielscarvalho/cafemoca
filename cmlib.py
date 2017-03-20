@@ -17,7 +17,7 @@ def standard_deviation(values):
 def average(values):
     vsum = sum(values)
     itens = len(values)
-    return = vsum / float(itens)
+    return vsum / float(itens)
 
 def variance(values):
     vaverage = average(values)
@@ -26,6 +26,7 @@ def variance(values):
 
     for value in values:
         vsum += math.pow( (value - vaverage), 2)
-        vvariance = vsum / float( len(values) )
+    
+    vvariance = vsum / float( len(values) )
     
     return vvariance
